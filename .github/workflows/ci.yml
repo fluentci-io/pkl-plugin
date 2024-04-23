@@ -22,7 +22,7 @@ jobs:
           args: |
             setup
           working-directory: example
-      - name: Show ruff version
+      - name: Show pkl version
         run: |
-          type ruff
-          ruff version
+          type pkl
+          pkl --version

@@ -51,7 +51,6 @@ Github Actions:
     plugin: pkl
     args: |
       setup
-    working-directory: example
 - name: Show pkl version
   run: |
     type pkl
